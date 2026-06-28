@@ -25,7 +25,9 @@ npm install stripe
 Create or modify root `.env` file, add Stripe environment variables with NUXT_ prefix:
 
 NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key_here
+
 NUXT_STRIPE_SECRET_KEY=your_stripe_secret_key_here
+
 NUXT_STRIPE_API_VERSION=2026-06-24.dahlia
 
 ### 3. nuxt.config.ts Configuration
