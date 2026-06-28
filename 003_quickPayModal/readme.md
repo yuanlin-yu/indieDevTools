@@ -2,7 +2,7 @@
 A sleek, responsive, and user-friendly Stripe payment modal component for Nuxt applications, designed to provide a seamless one-click payment experience with modern UI/UX features.
 
 ## Demo
-![QuickPayModal Demo](quickPayModal.mkv)
+![QuickPayModal Demo](quickPayModal.mp4)
 
 ## Prerequisites
 - A Stripe account (with publishable and secret keys)
