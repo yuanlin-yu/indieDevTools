@@ -18,9 +18,9 @@ export default defineEventHandler(async (event) => {
     const token = config.GH_TOKEN
     
     // It's highly recommended to fetch these from config/env as well
-    const owner = config.public.GH_OWNER 
-    const repo = config.public.GH_REPO 
-    const issueNumber = config.public.GH_ISSUE_NUMBER 
+    const owner = config.GH_OWNER 
+    const repo = config.GH_REPO 
+    const issueNumber = config.GH_ISSUE_NUMBER 
 
     // 3. Verify GitHub Personal Access Token availability
     if (!token) {

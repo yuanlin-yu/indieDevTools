@@ -37,14 +37,10 @@ Add the server route code to `server/api/track.post.ts`. Then, configure your en
 export default defineNuxtConfig({
   runtimeConfig: {
     // Secret key (Server-side only)
-    GH_TOKEN: '',
-    
-    public: {
-      // Configuration details exposed to server utilities safely
-      GH_OWNER: '',
-      GH_REPO: '',
-      GH_ISSUE_NUMBER: '' 
-    }
+    GH_TOKEN: '',   
+    GH_OWNER: '',
+    GH_REPO: '',
+    GH_ISSUE_NUMBER: '' 
   }
 })
 ```
